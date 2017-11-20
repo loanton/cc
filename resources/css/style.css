@@ -1,0 +1,486 @@
+html {
+	font-size: 18px;
+	font-family: Avenir, sans-serif;
+}
+
+container {
+	width: 1300px;
+}
+
+.mobhead {
+	display: none;
+}
+
+header .container {
+	display: flex;
+	height: 64px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	padding-top: 8px;
+	display: flex;
+	margin-left: 24px;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+#col {
+	color: #404040;
+	font-weight: bold;
+}
+
+#aca {
+	color: grey;
+}
+
+.logo img {
+
+	height: 3rem;
+	padding-top: .74rem;
+	padding-bottom: .74rem;
+}
+
+.headernav {
+	text-align: right;
+	margin-right: 24px;
+}
+
+.headernav span {
+	padding: 0 8px;
+	font-size: 1.1rem;
+	color: #525252;
+}
+
+.container .banner {
+	display: flex;
+	background-color: #f1f1f1;
+	background-size: cover;
+	align-items: center;
+}
+
+.banner {
+	display: flex;
+}
+
+.bannerimg {
+	display: flex;
+	margin: 32px 24px;
+	width: 60%;
+}
+
+.banner img {
+	width: 100%;
+	height: 80%;
+
+}
+
+.bannercontent {
+	display: flex;
+	flex-direction: column;
+	font-family: Frutiger, sans-serif;
+	width: 40%;
+	margin-left: 2rem;
+}
+
+.con {
+	margin: 1.2rem 0;
+	padding-right: 8rem;
+	line-height: 3.2rem;
+}
+
+h1 {
+	color: #545454;
+	font-size: 2.7rem;
+	font-weight: bold;
+}
+
+h2 {
+	color: #545454;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
+.bannerlink a {
+	display: flex;
+	padding: 8px 0;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: #545454;
+	font-size: 1.2rem;
+	font-family: Frutiger, sans-serif;
+	text-decoration: none;
+}
+
+.info {
+	display: flex;
+	margin: 32px 24px;
+}
+
+.infotext h1 {
+	margin: 32px 0 24px 0;
+}
+
+.infotext p {
+	margin-bottom: 32px;
+	color: grey;
+}
+
+.infotext span {
+	color: grey;
+}
+
+.infoimgtext {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin-right: 24px;
+	
+}
+
+.infoimg img {
+	width: 100%;
+}
+
+.infocontent {
+	width: 40%;
+}
+
+.blueline {
+	border-left: 1px solid #f1f1f1;
+}
+
+.coni {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.conimg{
+	display: flex;
+	width: 35%;
+	height: auto;
+}
+
+.conimg img {
+	display: flex;
+	width: 100%;
+	margin: 16px;
+	z-index: 2;
+}
+
+.context {
+	display: flex;
+	width: 65%;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 2rem;
+}
+
+.context .guest {
+	display: flex;
+	flex-direction: flex-end;
+}
+
+.context span {
+	margin: 8px 0;
+	color: grey;
+}
+
+.context a {
+	text-decoration: none;
+	margin-top: 4px;
+}
+
+.coni .guest {
+	background-color: #f1f1f1;
+	background-size: cover;
+
+}
+
+.sacks {
+	background-color: #f1f1f1;
+}
+
+.mobconi {
+	display: none;	
+}
+.thesis {
+	background-color: #f1f1f1;
+}
+
+.container .startlearning {
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+
+.moblearn {
+	display: none;
+}
+
+.starthead {
+	display: flex;
+	justify-content: center;
+	margin-top: 32px, auto;
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #404040;
+	background-color: #f1f1f1;
+	background-size: cover;
+	padding: 32px;
+}
+
+.startlearning {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 32px;
+}
+
+.startrow {
+	display: flex;
+	width: auto;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 40px;
+	margin-right: 72px;
+
+}
+
+.row2{
+	margin-top: 32px;
+}
+
+startrow .box {
+	width: auto%;
+	justify-content: space-between;
+}
+
+.box {
+	width: 30%;
+	margin-left: 32px;
+	display: flex;
+	flex-direction: column;
+}
+
+.box img {
+	height: auto;
+	width: 100%;
+}
+
+.starttext {
+	display: flex
+	flex-direction: column;
+	padding-left: 16px;
+	background-color: white;
+	height: 9rem;
+	align-items: center
+	justify-content: center;
+	padding-bottom: 24px;
+}
+
+
+.box h3 {
+	display: flex;
+	margin-top: 16px;
+	margin-bottom: 8px;
+	font-size: 8rem
+	font-weight: bold;
+}
+
+.starttext h3 {
+	font-size: 1.8rem;
+	color: #545454;
+}
+
+.starttext span {
+	color: grey;
+	font-size: 1.2rem;
+}
+
+.starttext p {
+	margin-top: 8px;
+	margin-bottom: 24px;
+	color: grey;
+	font-size: 1.3rem;
+}
+.theguest {
+	display: none;
+}
+
+footer {
+	border-top: 1px solid lightblue;
+}
+
+.foot {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 16px 24px 57px 24px;
+	color: #a8a8a8;
+}
+
+
+.footright {
+	justify-content: flex-end;
+}
+
+.aisholpan {
+	text-align: flex-start;
+}
+
+.footright span {
+	margin-left: 11px;
+}
+
+.mobthesis {
+	display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+	.logo {
+		display: none;
+	}
+
+	.container {
+		width: 480px;
+	}
+
+	.headernav {
+		display: none;
+	}	
+
+	.mobhead {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin: auto 48px;
+	}	
+	.banner {
+		flex-direction: column;
+		width: 480px;
+	}	
+	.bannercontent {
+		width: 100%;
+		margin-top: 0;
+	}
+	.bannerimg {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 250px;
+	}
+	.bannerimg img {
+		height: auto;
+	}
+	.con {
+		margin: 0;
+	}
+	.h1 h1 {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.2rem;
+		flex-direction: row;
+		padding: 0;
+		margin: 32px 0 32px 16px;
+	}
+	.con h2 {
+		display: flex;
+		font-size: 1.4rem;
+		margin-left: 16px;
+	}
+	.bannerlink a {
+		width: 100%;
+		margin: 24px 16px 32px 16px;
+	}	
+	.info {
+		display: none;
+	}
+	.blueline {
+		width: 100%;
+		border: none;
+	}
+	.coni {
+		flex-direction: column;
+	}
+	.conimg {
+		width: 100%;
+		height: 200px;
+	}
+	.context {
+		width: 100%;
+		margin-left: 16px;
+		padding-left: 16px;
+		margin-bottom: 16px;
+	}
+	.coni .guest {
+		background-color: white; 
+	}	
+	.sacks {
+		background-color: white;
+	}
+	.startlearning {
+		display: none;
+	}
+	.starthead {
+		background-color: white;
+		border-top: 1px solid lightblue;
+	}
+	.moblearn {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		flex-direction: column;
+		padding-bottom: 32px;
+		border-bottom: 1px solid lightblue;
+	}
+	.moblearn p {
+		display: flex;
+		color: #545454;
+		background-color: #f1f1f1;
+		width: 82%;
+		padding-top: 24px;
+		padding-left: 16px;
+		padding-bottom: 24px;
+		margin-top: 8px;
+		margin-left: 16px;
+		font-weight: bold;
+	}
+	.thesisdiv {
+		display: none;
+	}
+	.mobthesis span {
+		display: flex;
+		color: #545454;
+		font-weight: bold;
+		justify-content: center;
+		margin-bottom: 16px;
+		margin-top: 0;
+		font-size: 2.2rem;
+	}
+	.mobthesis {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		margin-top: 32px;
+		margin-bottom: 24px;
+	}
+	.footright {
+		display: none;
+	}
+	.foot {
+		margin-bottom: 0;
+	}
+	footer {
+		display: flex;
+		border-top: none;
+		margin-top: 30px;
+		margin-bottom: 16px;
+	}
+}
